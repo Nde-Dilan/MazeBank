@@ -1,0 +1,84 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.login_container {
+    -fx-background-color:#EEEE ;
+}
+
+/*Logo Container styles*/
+
+.login_logo_container{
+    -fx-background-color: #132a13;
+    -fx-alignment: center;
+}
+
+.login_logo_container Text {
+    -fx-font-size: 2em;
+    -fx-font-family: "Fira Code SemiBold";
+    -fx-fill: #FFFFFF;
+}
+
+.login_logo_container FontAwesomeIconView {
+    /*The fill props replace the color prop in normal css , generally when the element is defined under
+    * Shapes, we will use the fill prop*/
+    -fx-fill: #ecf39e;
+
+}
+
+
+/*Account selector*/
+
+.account_selector {
+    -fx-background-color:#ecf39e ;
+}
+
+.account_selector .label {
+    -fx-text-fill: #132A13;
+    -fx-font-size: 1.1em;
+}
+
+.account_selector .arrow {
+    -fx-background-color: #132A13;
+}
+
+#choice-box-popup-menu {
+    -fx-background-color:#ecf39A;
+}
+
+/*Login form*/
+.login_form_container {
+    -fx-spacing: 15;
+    -fx-alignment: center;
+}
+
+.login_form_container .label {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+}
+
+.input_field{
+    -fx-background-color: #ffff;
+    -fx-font-size: 1.2em;
+    -fx-pref-height: 25;
+}
+
+.login_form_container Button {
+    -fx-background-color: #132A13;
+    -fx-text-fill: #ffff;
+    /*-fx-pref-height: 30;*/
+    -fx-font-size: 1.2em;
+    /*TODO: Make the button have a good looking border-radius*/
+}
+
+.login_form_container Button:hover {
+    -fx-cursor: hand;
+    -fx-opacity: 0.7
+;
+    -fx-font-weight: bolder;
+}
+
+.error_label {
+    -fx-text-fill: red;
+}
+
